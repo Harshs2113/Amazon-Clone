@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <link rel="stylesheet" href="./createAccount.css">
+    <link rel="icon" href="./images/signin/amazon-icon-black-and-white-vector-34243987.webp">
+</head>
+<body>
+    <div class="Account">
+        <div>
+            <img src="./images/signin/PV_Logo_Landscape_Smile_Centred_Dark_Squid_Ink_RGB_150._TTD_.png" alt="prime video" >
+        </div>
+        <fieldset>
+            <h1>Create Account</h1>
+            <form action="https://www.amazon.in/ap/cvf/request?arb=2b73e359-67aa-419d-a72d-45a515011670&language=en_US">
+                <label for="">Your name</label>
+                <br>
+                <input type="text" placeholder="First and last name" required class="name">
+                <br><br>
+                <label for="">Mobile number</label>
+                <br>
+                <select name="" id="code">
+                    <option value="IN +91">IN +91</option>
+                    <option value="AF +93">AF +93</option>
+                    <option value="AL +355">AL +355</option>
+                    
+                </select>
+                <input type="tel" placeholder="Mobile number" class="no" required minlength="10" maxlength="10">
+                <br><br>
+                <label for="">Password</label>
+                <br>
+                <input type="password" placeholder="At least 6 characters" minlength="6" required class="pass">
+                <br>
+                <img src="./images/blue-circle-i-icon.png" alt="i icon">
+                <p class="alert">Password must be atleast 6 characters</p>
+                <br><br>
+                <p class="msg">To verify your number, we will send you a text message with a temperory code. Message and data rates may apply.
+                </p>
+                <button>Verify mobile number</button>
+                <div class="s-line"></div>
+                <p class="acc-mess">Already have an account?</p>
+                <a href="./signin.html" class="acc-mess">Sign in></a>
+                <p class="terms">By creating an account, you must agree to the Amazon</p>
+                <br>
+                <a href="https://www.primevideo.com/help/ref=av_auth_te?nodeId=202064890" class="terms">Condition of use and Privacy notice.</a>
+            </form>
+        </fieldset>
+
+        <div class="B-line"></div>
+
+        <div class="foot-links">
+            <a href="https://www.primevideo.com/help/ref=av_auth_ter?nodeId=202064890" target="_blank">Terms and Privacy Notice </a>
+            <a href="./signin.html" target="_blank"> Send us feedback </a>
+            <a href="https://www.primevideo.com/help/ref=av_auth_hp" target="_blank"> Help </a>
+        </div>
+
+        <footer>
+            <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+        </footer>
+    </div>
+</body>
+</html>

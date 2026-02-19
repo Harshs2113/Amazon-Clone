@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        margin: 20px;
+    }
+    h1{
+        
+        margin: 15px 15px 15px 0px;
+        font-weight: 400;  
+        font-family: "Amazon Ember", "Helvetica Neue", Arial, sans-serif;
+
+    }
+    
+    fieldset{
+        width: 23%;
+        border-radius: 10px;
+        padding-left: 35px;
+        padding-bottom: 20px;
+        border-width: 2px;
+
+        label{
+        font-weight: bolder;
+        font-size: small;
+        
+        }
+        input[type="text"]{
+            height: 30px;
+            width: 17rem;
+            border-radius: 5px;
+            font-size: 16px;
+            
+        }
+        input[type="button"]{
+            background-color: rgb(250, 213, 3);
+            border-width: 0px;
+            border-radius: 20px;
+            height: 30px;
+            width: 17rem;
+            
+        }
+        
+        p{
+            font-size: 12px;
+            padding: 15px 10px 15px 0px;
+
+            a{
+                color: rgb(8, 108, 162);
+                
+            }
+            a:hover{
+                color: rgb(2, 2, 57);
+            }
+        }
+        .help{
+            color: rgb(7, 95, 142);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .help:hover{
+            text-decoration: underline;
+            color: rgb(2, 2, 57);
+            display: inline;
+        }
+        details{
+            display:inline-flex;
+            flex-direction: column;
+        }
+        .pass{
+           margin-left: -75px;
+           color: rgb(7, 95, 142);
+           text-decoration: none;
+           font-size: small;
+           margin-top: 10px;
+           padding-bottom: 20px;
+        }
+        .pass:hover{
+            text-decoration: underline;
+            color: rgb(2, 2, 57);
+        }
+    }
+    .S-line{
+        background-color: grey;
+        height: 1px;
+        width: 10rem;
+    }
+    .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23%;
+        margin:2rem 2rem 10px 2rem;
+
+        p{
+            font-size: small;
+            font-weight: 100;
+            width: 150px;
+            text-align: center;
+            color: rgb(126, 124, 124);
+
+        }
+    }
+    button{
+        background-color: white;
+        border-radius: 20px;
+        width: 350px;
+        height: 30px;
+        border-width: 1px;
+        
+
+    }
+    button:hover{
+        background-color: aliceblue;
+    }
+    .B-line{
+        background-color: rgb(217, 212, 212);
+        height: 1.5px;
+        margin: 30px;
+        width: 95vw;
+    }
+    .foot-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            text-decoration: none;
+            color:  rgb(7, 95, 142);
+            font-size: small;
+        }
+    }
+    footer{
+        margin: 15px;
+        text-align: center;
+        font-size: small;
+    }
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img[alt="prime video"]{
+        margin: 20px;
+    }
+    h1{
+        font-family: "Amazon Ember", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        margin: 15px 15px 15px 0px;
+    }
+    fieldset{
+        width: 25%;
+        padding-left: 20px;
+        border-radius:10px;
+        padding-bottom: 10px;
+
+    }
+    label{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    input{
+        border-radius:5px;
+        text-indent: 7px;
+    }
+    .name,.pass{
+        height: 35px;
+        width: 21rem;
+        
+    }
+    .no{
+        height: 35px;
+        width: 16rem;
+    }
+    #code{
+        height: 35px;
+        background-color: rgb(237, 236, 236);
+        border-radius: 10px;
+    }
+    input::placeholder{
+        text-indent: 7px;
+    }
+    input:focus{
+        border:5px double rgb(0, 0, 0);
+    }
+    img[alt="i icon"]{
+        height: 20px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    p{
+        display: inline-block;
+    }
+    .alert{
+        font-size: 12px;
+        
+    }
+    .msg{
+        font-size: 15px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    button{
+        height: 35px;
+         background-color: rgb(250, 213, 3);
+         border-width: 0px;
+         border-radius: 20px;
+         height: 30px;
+         width: 21rem;
+         margin-top: 10px;
+        
+    }
+    .s-line{
+        background-color: rgb(217, 212, 212);
+        height: 1.5px;
+        margin: 30px;
+        margin-left: 0px !important;
+    }
+    .acc-mess{
+        font-size: 14px;
+        margin-bottom:20px;
+    }
+    .terms{
+        font-size: small;
+        
+    }
+    a{
+        color: rgb(3, 74, 112);
+                
+    }
+    a:hover{
+        color: rgb(2, 2, 57);
+    }
+    .B-line{
+        background-color: rgb(217, 212, 212);
+        height: 1.5px;
+        margin: 30px;
+        width: 95vw;
+    }
+    .foot-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            text-decoration: none;
+            color:  rgb(7, 95, 142);
+            font-size: small;
+        }
+    }
+    footer{
+        margin: 15px;
+        text-align: center;
+        font-size: small;
+    }
+}
